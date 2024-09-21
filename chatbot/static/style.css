@@ -180,10 +180,10 @@ body {
     border-radius: 30px;
     text-align: left;
 }
-
+/* 
 .chatbox__send--footer {
     color: white;
-}
+} */
 
 .chatbox__button button,
 .chatbox__button button:focus,

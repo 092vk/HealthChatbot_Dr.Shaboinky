@@ -13,7 +13,7 @@ class Chatbox {
     display() {
         const { openButton, chatBox, sendButton } = this.args;
 
-        openButton.addEventListener('click', () => this.toggleState(chatBox));
+        // openButton.addEventListener('click', () => this.toggleState(chatBox));
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox));
 
@@ -23,16 +23,6 @@ class Chatbox {
                 this.onSendButton(chatBox);
             }
         });
-    }
-
-    toggleState(chatbox) {
-        this.state = !this.state;
-
-        if (this.state) {
-            chatbox.classList.add('chatbox--active');
-        } else {
-            chatbox.classList.remove('chatbox--active');
-        }
     }
 
     onSendButton(chatbox) {
