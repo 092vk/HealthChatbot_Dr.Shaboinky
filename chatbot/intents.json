@@ -1,0 +1,331 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Howdy",
+        "What's up?",
+        "Hi there!",
+        "Hey! How's it going?"
+      ],
+      "responses": [
+        "Hello! Welcome to our Health Chatbot. How can I assist you today?",
+        "Hi there, I'm here to help with your health concerns. What would you like to know?",
+        "Greetings! How can I assist you with your health today?",
+        "Hello, thanks for reaching out. How can I help with your health questions?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Talk to you soon",
+        "Take care",
+        "Later",
+        "Peace out"
+      ],
+      "responses": [
+        "Goodbye! Take care of your health.",
+        "See you soon! Feel free to return with any health questions.",
+        "Bye! Stay healthy and feel free to reach out anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "Much appreciated",
+        "Thanks a bunch",
+        "Thanks so much",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome! If you have more questions, just ask.",
+        "Happy to help! Let me know if you need further assistance.",
+        "Anytime! Your health is important to us.",
+        "Glad to be of assistance. Don't hesitate to ask more."
+      ]
+    },
+{
+  "tag": "headache",
+  "patterns": [
+    "I have a headache",
+    "Headache symptoms"
+  ],
+  "responses": [
+    "I'm sorry to hear that. Staying hydrated and resting might help. If it persists, consider consulting a healthcare professional."
+  ]
+},
+{
+  "tag": "nausea",
+  "patterns": [
+    "I feel nauseous",
+    "Nausea symptoms"
+  ],
+  "responses": [
+    "Nausea can have various causes. Try ginger tea or deep breathing. If it continues, please consult a doctor."
+  ]
+},
+{
+  "tag": "cough",
+  "patterns": [
+    "I have a cough",
+    "Cough symptoms"
+  ],
+  "responses": [
+    "A cough can be due to various reasons. Staying hydrated and using honey can soothe your throat, but see a doctor if it persists."
+  ]
+},
+{
+  "tag": "chest_pain",
+  "patterns": [
+    "I’m experiencing chest pain",
+    "Chest pain symptoms"
+  ],
+  "responses": [
+    "Chest pain should be taken seriously. Please seek immediate medical attention if it's severe or accompanied by other symptoms."
+  ]
+},
+{
+  "tag": "fever",
+  "patterns": [
+    "I have a fever",
+    "Fever symptoms"
+  ],
+  "responses": [
+    "A fever may indicate an infection. Stay hydrated, rest, and monitor your symptoms. If it persists or worsens, consult a doctor."
+  ]
+},
+{
+  "tag": "dizziness",
+  "patterns": [
+    "I feel dizzy",
+    "Dizziness symptoms"
+  ],
+  "responses": [
+    "Feeling dizzy can have various causes. Make sure you're well-hydrated and try to sit or lie down. If it continues, see a healthcare professional."
+  ]
+},
+{
+  "tag": "rash",
+  "patterns": [
+    "I have a rash",
+    "Rash symptoms"
+  ],
+  "responses": [
+    "A rash can be caused by many factors. Keep the area clean and avoid scratching. If it spreads or causes discomfort, consult a doctor."
+  ]
+},
+{
+  "tag": "stomach_pain",
+  "patterns": [
+    "I have stomach pain",
+    "Stomach pain symptoms"
+  ],
+  "responses": [
+    "Stomach pain can result from various issues. Try to identify if it's related to eating or stress. If it persists, please consult a healthcare provider."
+  ]
+},
+{
+  "tag": "muscle_aches",
+  "patterns": [
+    "I have muscle aches",
+    "Muscle ache symptoms"
+  ],
+  "responses": [
+    "Muscle aches can occur due to various reasons, including exercise or illness. Rest and hydration can help. If it persists, consult a healthcare professional."
+  ]
+},
+{
+  "tag": "fatigue",
+  "patterns": [
+    "I have fatigue",
+    "Fatigue symptoms"
+  ],
+  "responses": [
+    "Fatigue can be caused by many factors, including stress or lack of sleep. Ensure you're getting enough rest, and if it continues, see a doctor."
+  ]
+},
+{
+  "tag": "chills",
+  "patterns": [
+    "I have chills",
+    "Chills symptoms"
+  ],
+  "responses": [
+    "Chills can be a sign of fever or infection. Monitor your symptoms closely. If it persists or you develop a fever, consult a healthcare provider."
+  ]
+},
+{
+  "tag": "sore_throat",
+  "patterns": [
+    "I have a sore throat",
+    "Sore throat symptoms"
+  ],
+  "responses": [
+    "A sore throat may be due to a cold or allergies. Gargling salt water and staying hydrated can help. If it lasts more than a few days, consult a doctor."
+  ]
+},
+{
+  "tag": "shortness_of_breath",
+  "patterns": [
+    "I have shortness of breath",
+    "Shortness of breath symptoms"
+  ],
+  "responses": [
+    "Shortness of breath can be serious. If it's severe or sudden, seek immediate medical attention."
+  ]
+},
+{
+  "tag": "diarrhea",
+  "patterns": [
+    "I have diarrhea",
+    "Diarrhea symptoms"
+  ],
+  "responses": [
+    "Diarrhea can result from various factors, including diet or infection. Stay hydrated, and if it persists for more than a day, consult a healthcare professional."
+  ]
+},
+{
+  "tag": "constipation",
+  "patterns": [
+    "I have constipation",
+    "Constipation symptoms"
+  ],
+  "responses": [
+    "Constipation can be relieved by increasing fiber intake and hydration. If it continues, consult a healthcare provider."
+  ]
+},
+{
+  "tag": "runny_nose",
+  "patterns": [
+    "I have a runny nose",
+    "Runny nose symptoms"
+  ],
+  "responses": [
+    "A runny nose can be due to allergies or a cold. Staying hydrated and using saline sprays can help. If it persists, consider seeing a doctor."
+  ]
+},
+{
+  "tag": "eye_pain",
+  "patterns": [
+    "I have eye pain",
+    "Eye pain symptoms"
+  ],
+  "responses": [
+    "Eye pain can have various causes, including strain or injury. If it persists or is severe, consult an eye specialist."
+  ]
+},
+{
+  "tag": "toothache",
+  "patterns": [
+    "I have a toothache",
+    "Toothache symptoms"
+  ],
+  "responses": [
+    "A toothache can indicate a dental issue. Rinse with warm salt water and consult a dentist as soon as possible."
+  ]
+},
+{
+  "tag": "anxiety",
+  "patterns": [
+    "I feel anxious",
+    "Anxiety symptoms"
+  ],
+  "responses": [
+    "Feeling anxious can be overwhelming. Try deep breathing exercises or talking to someone about your feelings. If it persists, consider seeking professional help."
+  ]
+},
+{
+  "tag": "depression",
+  "patterns": [
+    "I feel depressed",
+    "Depression symptoms"
+  ],
+  "responses": [
+    "If you're feeling depressed, it's important to talk to someone who can help. Reach out to a friend or mental health professional."
+  ]
+},
+    {
+      "tag": "general_advice",
+      "patterns": [
+        "What can I do to improve my health?",
+        "How can I boost my immunity?",
+        "What are some healthy habits?",
+        "Can you give me health tips?",
+        "How can I stay fit?",
+        "What should I eat for better health?"
+      ],
+      "responses": [
+        "To improve your health, focus on a balanced diet, regular exercise, staying hydrated, and getting enough sleep. Regular check-ups are also essential.",
+        "Boosting immunity involves eating a variety of fruits and vegetables, exercising regularly, and managing stress.",
+        "Healthy habits include staying active, eating whole foods, avoiding processed sugars, and practicing mindfulness."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your contact information?",
+        "How do I get in touch?",
+        "Contact details",
+        "Ways to reach you"
+      ],
+      "responses": [
+        "For any urgent health concerns, please contact your local healthcare provider. If you have questions for us, feel free to ask here."
+      ]
+    },
+    {
+      "tag": "company_info",
+      "patterns": [
+        "Tell me about your service",
+        "What is your purpose?",
+        "Can you give me some information about your chatbot?",
+        "Service details",
+        "Chatbot information"
+      ],
+      "responses": [
+        "This chatbot provides basic health advice and symptom guidance. It's designed to assist you with health-related questions."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are your working hours?",
+        "When can I reach you?",
+        "When are you available?",
+        "Business hours"
+      ],
+      "responses": [
+        "I'm here 24/7 to assist you. Feel free to ask me questions anytime!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where can I find you?",
+        "Company location"
+      ],
+      "responses": [
+        "I’m a virtual assistant and available online anytime. For in-person consultations, please check with your local healthcare providers."
+      ]
+    }
+  ]
+}
+
+
+
