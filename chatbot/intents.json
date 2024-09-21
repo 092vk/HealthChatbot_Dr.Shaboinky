@@ -62,10 +62,14 @@
   "tag": "headache",
   "patterns": [
     "I have a headache",
-    "Headache symptoms"
+    "Headache symptoms",
+    "headace",
+    "i have pain in my head",
+    "head pain"
   ],
   "responses": [
-    "I'm sorry to hear that. Staying hydrated and resting might help. If it persists, consider consulting a healthcare professional."
+    "I'm sorry to hear that. Staying hydrated and resting might help. If it persists, consider consulting a healthcare professional.",
+    "have you tried sleeping yet , rest well and if it persists consult a doctor"
   ]
 },
 {
@@ -82,7 +86,8 @@
   "tag": "cough",
   "patterns": [
     "I have a cough",
-    "Cough symptoms"
+    "Cough symptoms",
+    "cough"
   ],
   "responses": [
     "A cough can be due to various reasons. Staying hydrated and using honey can soothe your throat, but see a doctor if it persists."

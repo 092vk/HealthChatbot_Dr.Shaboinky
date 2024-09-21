@@ -54,7 +54,7 @@ class Chatbox {
             textField.value = '';
         }).catch((error) => {
             console.error('Error:', error);
-            const errorMsg = { name: "Sam", message: "Sorry, I couldn't process that." };
+            const errorMsg = { name: "Sam", message: "Sorry, it looks bad , i would suggest you to visit a doctor or a physician" };
             this.messages.push(errorMsg);
             this.updateChatText(chatbox);
             textField.value = '';
