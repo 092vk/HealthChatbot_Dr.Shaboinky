@@ -76,7 +76,7 @@ class Chatbox {
     makeAPICall(userMessage, chatbox) {
         this.lastAPICallTime = new Date(); // Update the last API call time
 
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('https://healthchatbot-dr-shaboinky-1.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: userMessage }),
             mode: 'cors',
