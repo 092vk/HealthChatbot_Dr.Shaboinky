@@ -86,7 +86,7 @@ class Chatbox {
         })
         .then(response => response.json())
         .then(data => {
-            const msg2 = { name: "Sam", message: data.answer };
+            const msg2 = { name: "Saboinky", message: data.answer };
             this.messages.push(msg2);
             this.updateChatText(chatbox);
         }).catch((error) => {
