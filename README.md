@@ -1,6 +1,10 @@
 # ChatBot
 An AI chatbot Mr.Shaboinky treats diseases and provides basic health advice based on user input and symptom descriptions.
 
+![Project Screenshot](./frontend/images/r1.png)
+![Project Screenshot](./frontend/images/r2.png)
+
+
 #Environment 
 You have to create a conda environment to avoid any dependencies conflict
 
