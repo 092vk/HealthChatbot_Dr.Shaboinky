@@ -38,7 +38,7 @@ class Chatbox {
         this.updateChatText(chatbox);
 
         // Send the user's message to the server for prediction
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('https://healthchatbot-dr-shaboinky-1.onrender.com', {
             method: 'POST',
             body: JSON.stringify({ message: userMessage }),
             mode: 'cors',
